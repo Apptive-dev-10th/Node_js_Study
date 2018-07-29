@@ -148,6 +148,9 @@ console.log('server running on 8124');
 ## 과제
 1. var 와 let 의 차이점 및 장단점.
 2. js 에서 this keyword 조사하기.
+3. callback function 또는 callback 이 무엇인지 조사하기.
+4. MIME Type 에 대해서 조사하기
+5. character encoding 종류에 대해서 조사하기.
 
 
 [overhead]: https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C
