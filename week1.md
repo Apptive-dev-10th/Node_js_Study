@@ -59,8 +59,8 @@ process.on('uncaughtException', (error) => {
   console.log("예외가 발생했네...ㄷㄷ");
 });
 
-var count = 0;
-var test = () => {
+let count = 0;
+let test = () => {
   // 탈출 코드
   count = count + 1;
   if (count > 3) {return;}
@@ -79,10 +79,10 @@ event의 연결 개수는 기본적으로 10개 이하이다. 이를 초과할 �
 ## Server Event
 
 ```js
-var http = require('http');
+let http = require('http');
 
 // server 객체 생성
-var server = http.createServer();
+let server = http.createServer();
 
 // server 객체에 event 연결
 server.on('request', (code) => {
@@ -103,9 +103,9 @@ server.listen(8124);
 ## HTTP
 ```js
 // http module
-var http = require('http');
+let http = require('http');
 // file system module 
-var fs = require('fs');
+let fs = require('fs');
 
 // create http server at local
 // req == ServerRequest, res == ServerResponse
