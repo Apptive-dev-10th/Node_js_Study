@@ -145,8 +145,9 @@ console.log('server running on 8124');
 6. request 객체 : 응답 메세지를 작성할 때 request 이벤트 리스너의 첫번쨰 매개변수로 전달되는 객체
 7. 포트 : 컴퓨터와 컴퓨터를 연결하는 정보의 출입구 역할을 하는 곳이다.
 
-
-
+## 과제
+1. var 와 let 의 차이점 및 장단점.
+2. js 에서 this keyword 조사하기.
 
 
 [overhead]: https://ko.wikipedia.org/wiki/%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C
